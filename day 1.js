@@ -1,0 +1,132 @@
+//  Diffferent types of variables
+// let a = 10
+// {let a = 20}
+// const b = 20
+// {const b = 30}
+// var c = 30
+// {var c = 40}  only this valye will be change into {} < this bracketets
+// console.log(a,b,c)
+
+
+//   THIS IS AN EXAMPLES OF THE DIFFERENT DATA TYPES 
+// let a = 3
+// let b = 4
+// console.log(a + b - 6)
+
+// let n = 'hetu'
+// let age = 4
+// let adharcard = false
+// let school;
+// let mom = {
+//     nam: 'tinu ben',
+//     age : 30,
+//     city : 'tempoo',
+
+// }
+// let f = [1,2,4,4,6]
+// s = Symbol('hello')
+
+
+// console.log(typeof(mom))
+// console.log(typeof(age))
+// console.log(typeof(adharcard))
+// console.log(typeof(school))
+// console.log(typeof(f))
+
+//  STRING AND STRING METHODS
+
+// str1 = 'This is an exmaple of the string methods'
+
+// console.log(str1.length);
+// console.log(str1.toUpperCase());
+// console.log(str1.toLowerCase());
+// console.log(str1.includes('str')); // Find an character in the string the maping is started form the left to right
+// console.log(str1.indexOf('of'))
+// console.log(str1.charAt(6))
+// console.log(str1.slice(0,6)) // Example of slicing 
+// console.log(str1.replace(' is ',' are '));
+
+// console.log(str1.split('  '))
+// console.log(str1.concat('- this is an example of concations of the string'))
+
+// // AN MINI PRACTICE OF THE SRINGS METHODS
+
+// let st2 = '     practice of the strings methods     ';
+// clean = st2.trim();
+// uper = clean.toUpperCase();
+// words = uper.split(' ');
+// count = words.length; 
+// console.log(count)
+// rep = clean.replace('practice', 'Example');
+// console.log(rep)
+
+// //   THIS I SAN FUCNTION IS I HAVE COMBINE THE STINGS METHOD
+// function pretify(st){
+//     console.log('hello your string is looking messy');
+//     console.log(st.trim(), 'this is you string after removing the extra space');
+//     console.log(st.toLowerCase(), 'this is you string after converting into the lower case');
+//     console.log(st.toUpperCase(), 'this is you string after converting into the lower case');
+//     console.log(st.concat('this is an addition feature of the sting method'));
+//     console.log(st.replace(' is ',' are '));
+// }
+// st='    this is an example of the string methods   ';
+// sr = pretify(st);
+
+//   NUMBER AND MATH METHODS
+
+// let price = 49.999;
+// console.log(price.toFixed(3), 'this is an price');
+
+// let st = '49';
+// console.log(parseInt(st));
+// console.log(parseFloat(st));
+// console.log(Math.floor(price));
+// pow1 = console.log(Math.sqrt(st));
+// console.log(Math.pow(st,2));
+
+  //  CREATING THE FUNCION FOR ROLLING THE DIES
+
+// function dices(){
+//     dice = Math.floor(Math.random()*6)+1;
+//     console.log(dice);
+//   }
+
+//   dices();
+// price1= 199.98
+// price2 = 345.67
+
+// amount = price1 + price2
+// console.log(amount.toFixed(0));
+
+// function random(min,max){
+// val = Math.floor(Math.random()*(max-min+2)+min);
+// console.log(`the generated random value between ${min } and ${max} is ${val}`);
+// } 
+// random(50,100)
+
+//  THE ANOTHER EXAMPLE OF THE RAMDOM VARAIBLE
+
+// function even(min , max){
+//     do{
+
+//     val = Math.floor(Math.random()*(max-min+1)+min);
+//     if(val % 2 == 0){
+//         console.log(val);
+//         }
+// }while(val<max);
+// }
+// even(10,80)
+
+// function odd(min , max){
+// do{
+//   val = Math.floor(Math.random()*(max-min+1)+min);
+//   if(val % 2 !== 0){
+//       console.log(`odd number is ${val}`);
+//    }
+//   }while(val<max);
+
+// }
+// odd(10,80)
+
+  //  THIS IS AN EXAMPLE OF THE IF ANS ELSE CONDITOINS
+
