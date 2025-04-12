@@ -129,4 +129,87 @@
 // odd(10,80)
 
   //  THIS IS AN EXAMPLE OF THE IF ANS ELSE CONDITOINS
+// age = 20
+// if(age >= 18){
+//   console.log(`your age is ${age} so you are allowed to vote`);
+// }
+// else{
+//   console.log(`your age is ${age} so you are not allowed to vote`);
+// }
 
+
+// mark = Math.floor(Math.random()*(max-min+1)+min);
+// pass = 35
+// if(mark >= 90){
+  // console.log(` your mark is ${mark} so you got A+ grade`);
+// }
+// else if (mark >=80){
+  //   console.log(` your mark is ${mark} , and you got A grade`);
+  // }
+  // else if(mark >= 70){
+    //   console.log(` your mark is ${mark} , and you have got B grade`);
+    // }
+    // else if(mark >= 60){
+      //   console.log(` your mark is ${mark} and you got C+ GRADE`)
+      // } 
+      
+      // else if(mark >= 50){
+        //   console.log(` your mark is ${mark} and you got D+ GRADE`)
+        // } 
+        
+        // else if(mark >= 35){
+          //   console.log(` your mark is ${mark} and you pass GRADE`)
+          // } 
+          
+          
+          // else if(mark <35){
+            //   console.log(` your mark is ${mark} you fail`);
+            // }
+            // else{
+              // console.log(` incorect value`);
+              // }
+              
+// let isLoggedIn = false;
+// let message = isLoggedIn ? "Welcome back!" : "Please log in.";
+// console.log(message);
+              
+// let dri = true;
+// let messag = dri ? 'you can drive' : 'you can not drive';
+// console.log(messag);
+// if(num > 0){
+//   console.log(`the number ${num} is positive`)
+// }
+// else if(num < 0){
+//   console.log(`the number ${num} is negative`)
+// }
+// else{
+//   console.log(`the  number ${num} is zero`)}
+  
+  
+//   if(num % 2==0){
+//     console.log(`the number ${num} is even`)
+    
+//   }
+//   else if( num % 2 !== 0){{
+//     console.log(`the number ${num} is odd`)
+//   }}
+//   else{
+//     console.log(`the number ${num} is invalid` )
+//   }
+  
+//   min = 0
+//   max= 100
+//   temp = Math.floor(Math.random()*(max-min+1)+min)
+//   console.log(temp);
+
+// if(temp >= 35 ){
+//   console.log(`the temperature is ${temp} hot `)
+
+// }
+// else if(temp <=18){
+//   console.log(`the temperature is ${temp} cold `)
+
+// }
+// else{
+//   console.log(`the temperature is ${temp} normal `)
+// }
