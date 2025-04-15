@@ -8,10 +8,6 @@
 // console.log(a,b,c)
 
 
-//   THIS IS AN EXAMPLES OF THE DIFFERENT DATA TYPES 
-// let a = 3
-// let b = 4
-// console.log(a + b - 6)
 
 // let n = 'hetu'
 // let age = 4
